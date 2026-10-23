@@ -1,0 +1,6 @@
+cust_name=str(input("Enter your name:"))
+cust_name=cust_name.strip()
+cust_name=cust_name.title()
+print(cust_name)
+print(f"Total number of characters={len(cust_name)}")
+print(f"First character={cust_name[0]}\nLast character is {cust_name[-1]}")
